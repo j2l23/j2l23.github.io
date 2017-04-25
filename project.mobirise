@@ -380,7 +380,7 @@
             "showMeta": true
           },
           "title": "Showroom",
-          "meta": "Liste non exhaustive de mes collaborations"
+          "meta": "Morceaux choisis de mes collaborations"
         },
         {
           "_name": "footer1",
@@ -467,17 +467,17 @@
                 "thumb": "@PROJECT_PATH@/assets/images/portfolio4-800x533.jpg",
                 "image": "@PROJECT_PATH@/assets/images/portfolio4.jpg",
                 "caption": "Corporate, B2B, B2C",
-                "active": true
+                "active": false
               },
               {
                 "tags": "Responsive",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/portfolio65-800x533.png",
-                "image": "@PROJECT_PATH@/assets/images/portfolio65.gif",
+                "thumb": "@PROJECT_PATH@/assets/images/portfolio48-800x533.png",
+                "image": "@PROJECT_PATH@/assets/images/portfolio48.gif",
                 "caption": "Responsive web",
-                "active": false
+                "active": true
               },
               {
                 "tags": "Animated",
