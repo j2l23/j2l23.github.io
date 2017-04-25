@@ -468,7 +468,7 @@ h6,
 }
 #menu-s .link[aria-expanded="true"],
 #menu-s .dropdown-item[aria-expanded="true"] {
-  color: #d06515 !important;
+  color: #d06515!important;
 }
 #menu-s.mbr-navbar--stuck .mbr-navbar__section {
   background: #2c2c2c;
@@ -483,6 +483,9 @@ h6,
 #header1-r .mbr-section-title {
   font-size: 32px;
   font-family: 'Open Sans', sans-serif;
+}
+#header1-r .mbr-section-lead {
+  font-size: 18px;
 }
 #msg-box8-a .mbr-section-title,
 #msg-box8-a p {

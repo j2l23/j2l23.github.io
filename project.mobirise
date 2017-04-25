@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 29,
+    "uniqCompNum": 30,
     "versionPublish": "3.12.1",
     "favicon": "",
     "noImageResize": "true",
@@ -32,7 +32,7 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "",
+        "title": ":::::::::: Bienvenue sur mon site ::::::::::",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
@@ -82,7 +82,7 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "@primaryColor!important"
+              "color": "#d06515!important"
             },
             "&.mbr-navbar--stuck .mbr-navbar__section": {
               "background": "#2c2c2c"
@@ -137,12 +137,22 @@
             "Theme"
           ],
           "_name": "header1",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-size": "32px",
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
+            },
+            ".mbr-section-lead": {
+              "font-size": "18px"
+            }
+          },
           "_anchor": "header1-r",
           "_params": {
             "parallax": false,
             "bgImageRadio": true,
             "showArrow": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/jll-perso-1.gif",
+            "bgImage": "@PROJECT_PATH@/assets/images/jll-perso.gif",
             "bgColor": "#a07e49",
             "bgColorRadio": false,
             "bgVideo": {
@@ -159,14 +169,7 @@
           },
           "title": "Jean-Luc Levesque<br>",
           "text": "<b>Directeur artistique freelance<br></b>Une seule et unique priorité ! Quel que soit votre domaine d'intervention : décrypter vos enjeux de communication et dépasser vos objectifs.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>",
-          "_styles": {
-            ".mbr-section-title": {
-              "font-size": "32px",
-              "font-family": "'Open Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>"
         },
         {
           "_styles": {
@@ -187,7 +190,7 @@
             "paddingBottom": "1",
             "parallax": true,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-4-2000x1333.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2.jpg",
             "bgColor": "#F2F2F2",
             "bgColorRadio": false,
             "bgVideo": {
@@ -380,22 +383,40 @@
           "meta": "Liste non exhaustive de mes collaborations"
         },
         {
+          "_name": "footer1",
+          "_anchor": "footer1-2",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017. Jean-Luc Levesque."
+        },
+        {
+          "_inherit": "gallery1",
           "_tags": [
             "Theme"
           ],
-          "_name": "gallery1",
+          "_name": "gallery3",
           "_params": {
-            "paddingTop": 0,
-            "paddingBottom": 0,
+            "paddingTop": 1,
+            "paddingBottom": 1,
             "images": [
               {
                 "tags": "Awesome",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/portfolio7-800x533.jpg",
-                "image": "@PROJECT_PATH@/assets/images/portfolio7.jpg",
-                "caption": "User Interface design",
+                "thumb": "@PROJECT_PATH@/assets/images/portfolio1-800x533.jpg",
+                "image": "@PROJECT_PATH@/assets/images/portfolio1.jpg",
+                "caption": "Identité visuelle",
                 "active": false
               },
               {
@@ -403,9 +424,9 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/portfolio1-800x533.jpg",
-                "image": "@PROJECT_PATH@/assets/images/portfolio1.jpg",
-                "caption": "Identité visuelle",
+                "thumb": "@PROJECT_PATH@/assets/images/portfolio7-800x533.jpg",
+                "image": "@PROJECT_PATH@/assets/images/portfolio7.jpg",
+                "caption": "User Interface design",
                 "active": false
               },
               {
@@ -423,23 +444,13 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/portfolio48-800x533.png",
-                "image": "@PROJECT_PATH@/assets/images/portfolio48.gif",
-                "caption": "Création de site responsive",
-                "active": false
-              },
-              {
-                "tags": "Awesome",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/portfolio21-800x533.jpg",
                 "image": "@PROJECT_PATH@/assets/images/portfolio21.jpg",
                 "caption": "Shooting photo",
                 "active": false
               },
               {
-                "tags": "Beautiful",
+                "tags": "Awesome",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
@@ -449,13 +460,23 @@
                 "active": false
               },
               {
+                "tags": "Beautiful",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/portfolio15-800x533.jpg",
+                "image": "@PROJECT_PATH@/assets/images/portfolio15.jpg",
+                "caption": "Corporate, B2B, B2C",
+                "active": false
+              },
+              {
                 "tags": "Responsive",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/portfolio19-800x533.jpg",
-                "image": "@PROJECT_PATH@/assets/images/portfolio19.jpg",
-                "caption": "Communication B2B, B2C",
+                "thumb": "@PROJECT_PATH@/assets/images/slide11-800x500.png",
+                "image": "@PROJECT_PATH@/assets/images/slide11.gif",
+                "caption": "Responsive web",
                 "active": false
               },
               {
@@ -469,34 +490,17 @@
                 "active": true
               }
             ],
-            "spacing": 0,
+            "spacing": 1,
             "showText": true,
             "filter": false,
-            "bgColor": "#FFFFFF",
-            "filterBgColor": false,
-            "fullWidth": false,
-            "showBullets": false
+            "bgColor": "#282828",
+            "filterBgColor": true,
+            "fullWidth": true,
+            "showBullets": true
           },
-          "_anchor": "gallery1-p",
+          "_anchor": "gallery3-t",
           "articleLayout": false,
           "allItem": "All"
-        },
-        {
-          "_name": "footer1",
-          "_anchor": "footer1-2",
-          "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#323232",
-            "bgColorRadio": true,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
-          },
-          "text": "Copyright (c) 2017. Jean-Luc Levesque."
         },
         {
           "_tags": [
