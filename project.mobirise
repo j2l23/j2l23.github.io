@@ -474,10 +474,10 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/slide11-800x500.png",
-                "image": "@PROJECT_PATH@/assets/images/slide11.gif",
+                "thumb": "@PROJECT_PATH@/assets/images/portfolio65-800x533.png",
+                "image": "@PROJECT_PATH@/assets/images/portfolio65.gif",
                 "caption": "Responsive web",
-                "active": false
+                "active": true
               },
               {
                 "tags": "Animated",
@@ -487,7 +487,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/portfolio29-800x533.jpg",
                 "image": "@PROJECT_PATH@/assets/images/portfolio29.jpg",
                 "caption": "Publicité, rédaction, traduction",
-                "active": true
+                "active": false
               }
             ],
             "spacing": 1,
