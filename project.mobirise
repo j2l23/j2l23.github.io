@@ -32,8 +32,8 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": ":::::::::: Bienvenue sur mon site ::::::::::",
-        "meta_descr": "",
+        "title": ":::::::::::::::::::: Bienvenue :::::::::::::::::::: ",
+        "meta_descr": "directeur artistique, user interface design, conseil en communication, infographie, illustration, shooting photo, responsive web, publicité, corporate, B2B, B2C, rédaction, traduction, charte graphique, identité visuelle",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
@@ -130,7 +130,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box8-a\">QUI&nbsp;</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header3-q\" aria-expanded=\"false\">QUOI</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header3-g\" aria-expanded=\"false\">SHOWROOM</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"index.html#contacts4-n\">CONTACT</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#top\">TOP&nbsp;</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box8-a\">QUI&nbsp;</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header3-q\" aria-expanded=\"false\">QUOI</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header3-g\" aria-expanded=\"false\">SHOWROOM</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"index.html#contacts4-n\">CONTACT</a></li>"
         },
         {
           "_tags": [
@@ -152,7 +152,7 @@
             "parallax": false,
             "bgImageRadio": true,
             "showArrow": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/jll-perso.gif",
+            "bgImage": "@PROJECT_PATH@/assets/images/jll-perso.jpg",
             "bgColor": "#a07e49",
             "bgColorRadio": false,
             "bgVideo": {
@@ -434,8 +434,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/portfolio2-800x533.png",
-                "image": "@PROJECT_PATH@/assets/images/portfolio2.gif",
+                "thumb": "@PROJECT_PATH@/assets/images/portfolio2-800x533.jpg",
+                "image": "@PROJECT_PATH@/assets/images/portfolio2.jpg",
                 "caption": "Direction artistique",
                 "active": false
               },
@@ -454,8 +454,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/portfolio58-800x533.png",
-                "image": "@PROJECT_PATH@/assets/images/portfolio58.gif",
+                "thumb": "@PROJECT_PATH@/assets/images/portfolio58-800x533.jpg",
+                "image": "@PROJECT_PATH@/assets/images/portfolio58.jpg",
                 "caption": "Infographie &amp; illustration",
                 "active": false
               },
@@ -464,8 +464,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/portfolio15-800x533.jpg",
-                "image": "@PROJECT_PATH@/assets/images/portfolio15.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/portfolio15-1-800x533.jpg",
+                "image": "@PROJECT_PATH@/assets/images/portfolio15-1.jpg",
                 "caption": "Corporate, B2B, B2C",
                 "active": false
               },
@@ -477,7 +477,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/portfolio65-800x533.png",
                 "image": "@PROJECT_PATH@/assets/images/portfolio65.gif",
                 "caption": "Responsive web",
-                "active": true
+                "active": false
               },
               {
                 "tags": "Animated",
@@ -487,7 +487,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/portfolio29-800x533.jpg",
                 "image": "@PROJECT_PATH@/assets/images/portfolio29.jpg",
                 "caption": "Publicité, rédaction, traduction",
-                "active": false
+                "active": true
               }
             ],
             "spacing": 1,
