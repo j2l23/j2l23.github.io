@@ -515,6 +515,13 @@ h6,
 #header3-g SMALL {
   color: #ffffff;
 }
+#social-buttons3-u .mbr-section-title,
+#social-buttons3-u .btn-social {
+  color: #fff;
+}
+#social-buttons3-u .mbr-section-title {
+  font-size: 24px;
+}
 #contacts4-n STRONG {
   color: #ffffff;
 }
